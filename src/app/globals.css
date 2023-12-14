@@ -5,9 +5,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Open+Sans&family=Sansita&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Sansita:wght@900&family=Sarabun:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Sansita:wght@400;900&family=Sarabun:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita:wght@400;700;900&family=Sarabun:wght@100&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /* * {
   padding: 0;
   margin: 0;
@@ -22,6 +28,7 @@
 @layer base {
   .font-Sansita {
     font-family: "Sansita", sans-serif !important;
+    /* font-family: "Sarabun", sans-serif !important; */
   }
   .font-Open-Sans {
     font-family: "Open Sans", sans-serif !important;
@@ -33,7 +40,7 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -49,4 +56,22 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+#nav {
+  box-shadow: 0px 2px 20px 0px rgba(26, 17, 20, 0.1);
+}
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 50px solid #555;
+  border-bottom: 25px solid transparent;
+}
+
+.card-proud {
+  box-shadow: 0px 4px 30px 0px rgba(10, 30, 35, 0.1);
+}
+
+.our-tem-card {
+  box-shadow: 0px 4px 30px 0px rgba(10, 30, 35, 0.1);
 }

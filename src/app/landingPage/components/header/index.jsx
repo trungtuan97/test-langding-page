@@ -1,9 +1,11 @@
+import Nav from "./Nav";
 import TopHeader from "./TopHeader";
 
 const Header = () => {
   return (
-    <div className="font-Sansita w-full ">
+    <div className=" flex flex-col items-center font-Sansita w-full ">
       <TopHeader />
+      <Nav />
     </div>
   );
 };

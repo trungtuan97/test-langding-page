@@ -1,9 +1,8 @@
 import LandingPage from "./landingPage";
-
 export default function Home() {
   return (
-    <main className="flex min-h-screen justify-center ">
-      <div className="">
+    <main className="grid ">
+      <div className="flex justify-center">
         <LandingPage />
       </div>
     </main>
