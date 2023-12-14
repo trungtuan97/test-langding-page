@@ -3,6 +3,7 @@ import IconHeart from "@/image/IconHeart";
 import Image from "next/image";
 
 import React from "react";
+import IconMenu from "../../../../../public/image/IconMenu";
 
 function Nav() {
   return (
@@ -39,7 +40,7 @@ function Nav() {
         </div>
         <div className="lg:hidden">
           {" "}
-          <Image src="/image/mobileNavIcon.png" width="25" height="25" alt="" />
+          <IconMenu />
         </div>
       </div>{" "}
     </div>
