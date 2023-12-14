@@ -22,10 +22,10 @@ function Nav() {
         </div>
         <div className="hidden lg:flex gap-[30px]">
           <div className="">
-            <Image src="/image/search.png" width="25" height="25" />
+            <Image src="/image/search.png" width="25" height="25" alt="" />
           </div>
           <div className="relative">
-            <Image src="/image/bag.png" width="25" height="25" />
+            <Image src="/image/bag.png" width="25" height="25" alt="" />
             <div className="  bg-[#1A1114] rounded-full text-white text-center px-[7px] py-[4px] inline-flex text-[10px] font-[600] leading-[14px] font-Open-Sans border-[1px] boder-white absolute left-[9px] top-[12px]">
               0
             </div>
@@ -39,7 +39,7 @@ function Nav() {
         </div>
         <div className="lg:hidden">
           {" "}
-          <Image src="/image/mobileNavIcon.png" width="25" height="25" />
+          <Image src="/image/mobileNavIcon.png" width="25" height="25" alt="" />
         </div>
       </div>{" "}
     </div>

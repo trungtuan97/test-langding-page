@@ -2,18 +2,14 @@ import * as React from "react";
 const IconTriangle = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={32}
-    height={32}
-    fill="#EC80A0"
-    stroke="#EC80A0"
-    strokeWidth={0.019}
-    transform="scale(-2 2)"
-    viewBox="0 0 1980 1920"
+    xmlSpace="preserve"
+    viewBox="0 0 512 512"
     {...props}
   >
     <path
-      fillRule="evenodd"
-      d="M694.018 926.244c-27.296 18.796-27.3 49.269 0 68.067l509.836 351.074c27.296 18.797 49.424 7.18 49.424-25.959V601.13c0-33.133-22.125-44.757-49.424-25.959L694.018 926.244Z"
+      fill="#ec80a0"
+      d="M405.2 232.9 126.8 67.2c-3.4-2-6.9-3.2-10.9-3.2-10.9 0-19.8 9-19.8 20H96v344h.1c0 11 8.9 20 19.8 20 4.1 0 7.5-1.4 11.2-3.4l278.1-165.5c6.6-5.5 10.8-13.8 10.8-23.1s-4.2-17.5-10.8-23.1z"
+      className="fill-000000"
     />
   </svg>
 );
