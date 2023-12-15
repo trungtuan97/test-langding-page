@@ -17,7 +17,7 @@ function LangdingPageBody() {
     <div className="w-full lg:w-[1410px]">
       {/* About us */}
       <div className="mt-[60px] lg:mt-[100px] grid gap-[10px] lg:gap-[15px] text-center lg:text-left ">
-        <div className="font-Sansita text-[36px] lg:text-[54px] font-[700] leading-[47px] capitalize text-[#1A1114]">
+        <div className="font-Sansita text-[36px] lg:text-[54px] font-[700] leading-[47px] lg:leading-[70px] capitalize text-[#1A1114]">
           About us
         </div>
         <div className="font-Open-Sans text-[15px] leading-[26px] font-[400] flex justify-center lg:justify-start">
@@ -36,7 +36,7 @@ function LangdingPageBody() {
           <div className="font-Sansita text-[30px] font-[700] leading-[40px] capitalize lg:text-[54px] lg:leading-[70px] mt-[20px] text-center lg:text-left">
             bring exciting moments of fun while playing & learning for children.
           </div>
-          <div className="font-[700] text-[17px] inline-flex px-[30px] py-[13px] bg-[#E76088] lg:bg-[#EC80A0] text-[#FFFFFF] lg:px-[40px] lg:py-[17px] rounded-[10px] uppercase font-Open-Sans tracking-[1.7px] lg:tracking-[2px] mt-[30px] lg:mt-[40px]">
+          <div className="font-[700] text-[17px] lg:text-[20px] inline-flex px-[30px] py-[13px] bg-[#E76088] lg:bg-[#EC80A0] text-[#FFFFFF] lg:px-[40px] lg:py-[17px] rounded-[10px] uppercase font-Open-Sans tracking-[1.7px] lg:tracking-[2px] mt-[30px] lg:mt-[40px]">
             Contact Us
           </div>
         </div>
@@ -58,10 +58,10 @@ function LangdingPageBody() {
             <div className="font-Sansita text-[36px] font-[700] leading-[47px] capitalize Lg:text-[42px] leading-[55px] text-[#EC80A0]">
               20+
             </div>
-            <div className="font-Barlow text-[24px] font-[700] leading-[31px]">
+            <div className="font-Barlow text-[24px] font-[700] leading-[31px] mt-[15px] lg:mt-[20px">
               Total top services
             </div>
-            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px]">
+            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px]">
               Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
             </div>
           </div>
@@ -70,10 +70,10 @@ function LangdingPageBody() {
             <div className="font-Sansita text-[36px] font-[700] leading-[47px] capitalize Lg:text-[42px] leading-[55px] text-[#EC80A0]">
               15+
             </div>
-            <div className="font-Barlow text-[24px] font-[700] leading-[31px]">
+            <div className="font-Barlow text-[24px] font-[700] leading-[31px] mt-[15px] lg:mt-[20px">
               Countries
             </div>
-            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px]">
+            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px]">
               Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
             </div>
           </div>
@@ -81,10 +81,10 @@ function LangdingPageBody() {
             <div className="font-Sansita text-[36px] font-[700] leading-[47px] capitalize Lg:text-[42px] leading-[55px] text-[#EC80A0]">
               98%
             </div>
-            <div className="font-Barlow text-[24px] font-[700] leading-[31px]">
+            <div className="font-Barlow text-[24px] font-[700] leading-[31px] mt-[15px] lg:mt-[20px">
               Positive Feedback
             </div>
-            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px]">
+            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px]">
               Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
             </div>
           </div>
@@ -92,10 +92,10 @@ function LangdingPageBody() {
             <div className="font-Sansita text-[36px] font-[700] leading-[47px] capitalize Lg:text-[42px] leading-[55px] text-[#EC80A0]">
               2,558
             </div>
-            <div className="font-Barlow text-[24px] font-[700] leading-[31px]">
+            <div className="font-Barlow text-[24px] font-[700] leading-[31px] mt-[15px] lg:mt-[20px">
               Usual users
             </div>
-            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px]">
+            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px]">
               Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
             </div>
           </div>
@@ -128,7 +128,7 @@ function LangdingPageBody() {
           <div className="font-Sansita text-[36px] font-[700] leading-[47px]  lg:text-[54px] lg:leading-[70px]">
             Big love for <br /> our lovely kids.
           </div>
-          <div className="mt-[20px] lg:mt-[40px] font-Open-Sans text-[15px] font-[400] leading-[26px] ">
+          <div className="mt-[20px] lg:mt-[40px] font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px] ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore. Ut enim ad minim veniam, quis
             nostrud exercitation.
@@ -158,13 +158,13 @@ function LangdingPageBody() {
                 className="rounded-full"
               />
             </div>
-            <div className="mt-[25px] font-Barlow text-[24px] font-[700] leading-[31px]">
+            <div className="mt-[25px] font-Barlow text-[24px] font-[700] leading-[31px] mt-[15px] lg:mt-[20px">
               Name 01
             </div>
             <div className="font-Open-Sans opacity-[0.5] text-[15px] font-[400] leading-[26px] mt-[5px] text-[#1A1114]">
               CEO & Founder
             </div>
-            <div className="mt-[10px] font-Open-Sans text-[15px] font-[400] leading-[26px]">
+            <div className="mt-[10px] font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px]">
               Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
             </div>
             <div className="mt-[15px] flex gap-[20px]">
@@ -185,13 +185,13 @@ function LangdingPageBody() {
                 className="rounded-full"
               />
             </div>
-            <div className="mt-[25px] font-Barlow text-[24px] font-[700] leading-[31px]">
+            <div className="mt-[25px] font-Barlow text-[24px] font-[700] leading-[31px] mt-[15px] lg:mt-[20px">
               Name 01
             </div>
             <div className="font-Open-Sans opacity-[0.5] text-[15px] font-[400] leading-[26px] mt-[5px] text-[#1A1114]">
               Personnel
             </div>
-            <div className="mt-[10px] font-Open-Sans text-[15px] font-[400] leading-[26px]">
+            <div className="mt-[10px] font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px]">
               Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
             </div>
             <div className="mt-[15px] flex gap-[20px]">
@@ -211,13 +211,13 @@ function LangdingPageBody() {
                 className="rounded-full"
               />
             </div>
-            <div className="mt-[25px] font-Barlow text-[24px] font-[700] leading-[31px]">
+            <div className="mt-[25px] font-Barlow text-[24px] font-[700] leading-[31px] mt-[15px] lg:mt-[20px">
               Name 01
             </div>
             <div className="font-Open-Sans opacity-[0.5] text-[15px] font-[400] leading-[26px] mt-[5px] text-[#1A1114]">
               Personnel
             </div>
-            <div className="mt-[10px] font-Open-Sans text-[15px] font-[400] leading-[26px]">
+            <div className="mt-[10px] font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px]">
               Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
             </div>
             <div className="mt-[15px] flex gap-[20px]">
@@ -237,13 +237,13 @@ function LangdingPageBody() {
                 className="rounded-full"
               />
             </div>
-            <div className="mt-[25px] font-Barlow text-[24px] font-[700] leading-[31px]">
+            <div className="mt-[25px] font-Barlow text-[24px] font-[700] leading-[31px] mt-[15px] lg:mt-[20px">
               Name 01
             </div>
             <div className="font-Open-Sans opacity-[0.5] text-[15px] font-[400] leading-[26px] mt-[5px] text-[#1A1114]">
               Personnel
             </div>
-            <div className="mt-[10px] font-Open-Sans text-[15px] font-[400] leading-[26px]">
+            <div className="mt-[10px] font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px]">
               Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
             </div>
             <div className="mt-[15px] flex gap-[20px]">
@@ -265,7 +265,7 @@ function LangdingPageBody() {
             <div className="font-Sansita text-[24px] font-[700] leading-[31px] capitalize">
               Free shipping{" "}
             </div>
-            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px] text-[#585D67]">
+            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px] text-[#585D67]">
               Free shipping orders from $150
             </div>
           </div>
@@ -278,7 +278,7 @@ function LangdingPageBody() {
             <div className="font-Sansita text-[24px] font-[700] leading-[31px] capitalize">
               Gift/Discount codes
             </div>
-            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px] text-[#585D67]">
+            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px] text-[#585D67]">
               Many discount codes every day
             </div>
           </div>
@@ -291,7 +291,7 @@ function LangdingPageBody() {
             <div className="font-Sansita text-[24px] font-[700] leading-[31px] capitalize">
               Money return
             </div>
-            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px] text-[#585D67]">
+            <div className="font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px] text-[#585D67]">
               Return it within 30 days
             </div>
           </div>
@@ -321,7 +321,7 @@ function LangdingPageBody() {
             <div className="mb-[20px] lg:mb-[30px] font-Sansita text-[24px] font-[700] leading-[31px] capitalize">
               Contact info
             </div>
-            <div className="grid gap-[20px] font-Open-Sans text-[15px] font-[400] leading-[26px] text-[#1A1114]">
+            <div className="grid gap-[20px] font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px] text-[#1A1114]">
               <div className="flex gap-[25px] items-center">
                 <IconGps width="20" />
                 <div className="">
@@ -342,7 +342,7 @@ function LangdingPageBody() {
             <div className="mb-[20px] lg:mb-[30px] font-Sansita text-[24px] font-[700] leading-[31px] capitalize">
               Quick links
             </div>
-            <div className="grid gap-[20px] font-Open-Sans text-[15px] font-[400] leading-[26px]">
+            <div className="grid gap-[20px] font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px]">
               <div className="flex gap-[25px] items-center">My account</div>
               <div className="flex gap-[25px] items-center">Cart</div>
               <div className="flex gap-[25px] items-center"> Wishlist</div>
@@ -354,7 +354,7 @@ function LangdingPageBody() {
             <div className="mb-[20px] lg:mb-[30px] font-Sansita text-[24px] font-[700] leading-[31px] capitalize">
               Information
             </div>
-            <div className="grid gap-[20px] font-Open-Sans text-[15px] font-[400] leading-[26px]">
+            <div className="grid gap-[20px] font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px]">
               <div className="flex gap-[25px] items-center">Privacy policy</div>
               <div className="flex gap-[25px] items-center">Refund policy</div>
               <div className="flex gap-[25px] items-center">
@@ -370,7 +370,7 @@ function LangdingPageBody() {
             <div className="mb-[20px] lg:mb-[30px] font-Sansita text-[24px] font-[700] leading-[31px] capitalize">
               Follow us
             </div>
-            <div className="grid gap-[20px] font-Open-Sans text-[15px] font-[400] leading-[26px]">
+            <div className="grid gap-[20px] font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px]">
               <div className="flex gap-[25px] items-center">
                 <IconF />
                 <div className="">Facebook </div>
@@ -391,7 +391,7 @@ function LangdingPageBody() {
           </div>
         </div>
       </div>
-      <div className="p-[15px] lg:p-[27px] font-Open-Sans text-[15px] font-[400] leading-[26px] text-center font-[#1A1114] border-t-[1px] border-[#e8e7e7] mt-[40px] lg:mt-[70px] mx-[20px] lg:mx-0">
+      <div className="p-[15px] lg:p-[27px] font-Open-Sans text-[15px] font-[400] leading-[26px] mt-[10px] text-center font-[#1A1114] border-t-[1px] border-[#e8e7e7] mt-[40px] lg:mt-[70px] mx-[20px] lg:mx-0">
         Beae’stemplate © 2022. All Rights Reserved.
       </div>
     </div>
