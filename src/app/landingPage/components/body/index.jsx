@@ -53,7 +53,7 @@ function LangdingPageBody() {
         <div className="font-Sansita text-[36px] font-[700] leading-[47px] capitalize text-center lg:text-[54px] leading-[70px] ">
           What we are proud of.
         </div>
-        <div className="grid gap-[20px] lg:gap-[30px] grid-cols-1 lg:grid-cols-4 mt-[30px] lg:mt-[50px]">
+        <div className="grid gap-[20px] lg:gap-[30px] grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-[30px] lg:mt-[50px]">
           <div className="bg-[#FFFFFF] card-proud rounded-[10px] p-[30px] lg:px-[30px] lg:py-[40px] text-center ">
             <div className="font-Sansita text-[36px] font-[700] leading-[47px] capitalize Lg:text-[42px] leading-[55px] text-[#EC80A0]">
               20+
@@ -104,27 +104,27 @@ function LangdingPageBody() {
       {/*  */}
 
       <div className="mt-[60px] lg:mt-[100px] flex justify-between items-center flex-wrap px-[20px] lg:px-0 gap-[20px]">
-        <div className="">
+        <div className="w-[187px] md:w-[240px] lg:w-[450px]">
           <Image
             alt=""
             src="/image/82.png"
             width="450"
             height="550"
-            className="w-[187px] lg:w-[450px]"
+            className=""
           />
         </div>
 
-        <div className="">
+        <div className="w-[178px] md:w-1/3 lg:w-[430px]">
           {" "}
           <Image
             alt=""
             src="/image/1de24aae-2036-45ac-8318-5afe0baf60fe_1 1.png"
             width="450"
             height="550"
-            className="w-[178px] lg:w-[430px] rounded-[20px]"
+            className=" rounded-[20px]"
           />
         </div>
-        <div className="py-[30px] px-[20px] lg:px-[41px] lg:py-[88px] text-center bg-[#FDF4F7] rounded-[20px] w-full  lg:w-[450px] h-min ">
+        <div className="py-[30px] px-[20px] lg:px-[41px] lg:py-[88px] text-center bg-[#FDF4F7] rounded-[20px] w-full md:w-[240px] lg:w-[450px]  h-min ">
           <div className="font-Sansita text-[36px] font-[700] leading-[47px]  lg:text-[54px] lg:leading-[70px]">
             Big love for <br /> our lovely kids.
           </div>
@@ -147,7 +147,7 @@ function LangdingPageBody() {
         <div className="mb-[30px] lg:mb-[50px] font-Sansita text-[54px] font-[700] leading-[70px] text-center capitalize">
           Our team
         </div>
-        <div className="grid gap-[20px] grid-cols-1	lg:grid-cols-4	 lg:gap-[30px]  ">
+        <div className="grid gap-[20px] grid-cols-1 md:grid-cols-2	lg:grid-cols-4	 lg:gap-[30px]  ">
           <div className="pt-[35px] pb-[30px] lg:pt-[40px] text-center rounded-[10px] bg-[#FFF] our-tem-card px-[30px] flex flex-col items-center">
             <div className="w-[130px]">
               <Image
@@ -316,7 +316,7 @@ function LangdingPageBody() {
             </div>
           </div>
         </div>
-        <div className="grid gap-[40px]  grid-cols-1 lg:grid-cols-4 pt-[40px] lg:pt-[70px] border-t-[0px] lg:border-t-[1px] border-[#e8e7e7]">
+        <div className="grid gap-[40px] md:gap-[60px]  grid-cols-1 md:grid-cols-3 lg:grid-cols-4 pt-[40px] lg:pt-[70px] border-t-[0px] lg:border-t-[1px] border-[#e8e7e7]">
           <div className="">
             <div className="mb-[20px] lg:mb-[30px] font-Sansita text-[24px] font-[700] leading-[31px] capitalize">
               Contact info
