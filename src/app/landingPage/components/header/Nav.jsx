@@ -18,7 +18,7 @@ function Nav() {
           </div>
           <div className="">Contact</div>
         </div>
-        <div className="text-[#1A1114] text-[30px] font-[800] lg:text-[54px] leding-[55px] lg:leading-[70px] uppercase font-Sansita">
+        <div className="text-[#1A1114] text-[30px] font-[800] lg:text-[54px] leding-[55px] lg:leading-[70px] uppercase font-Sansita ">
           kito
         </div>
         <div className="hidden lg:flex gap-[30px]">
